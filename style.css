@@ -31,7 +31,7 @@ nav ul {
 nav ul li {
     margin-left: 80px;
     font-size: 20px;
-    padding: 15px;
+    padding: 15px 30px;
     /* transition: 300ms; */
 }
 
@@ -42,11 +42,11 @@ nav ul li a {
 
 nav ul li:hover {
     background-color: #2D928D;
-    border-radius: 20px;
+    border-radius: 25px;
 }
 
 main {
-    height: 83.1vh;
+    height: 82.5vh;
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
@@ -111,4 +111,11 @@ main {
 
 .mar {
     margin-left: 30px;
+}
+
+.button {
+    padding: 20px 35px;
+    border-radius: 30px;
+    background-color: #2D928D;
+    color: white;
 }
